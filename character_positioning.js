@@ -1,10 +1,10 @@
 function countLetters(string){
-  var holdWord = [];
+  //var holdWord = [];
   string = string.split(" ").join("");
   var answerObj = {};
   for(var i = 0; i < string.length; i++){
     if(answerObj[string[i]]===undefined){
-      holdWord.push(string[i]);
+      //holdWord.push(string[i]);
       answerObj[string[i]]= [];
       answerObj[string[i]].push(i);
     } else {
